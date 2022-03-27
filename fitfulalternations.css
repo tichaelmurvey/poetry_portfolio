@@ -1,12 +1,15 @@
+html {
+    height: 100%;
+}
 body{
     background: #30343a;
-    padding: 1%;
-    overflow: hidden;
+
 }
 
 .poem{
     color: white;
     margin-left: 12%;
+    margin-right: 5%;
     margin-top: 10%;
 }
 
@@ -48,7 +51,7 @@ h1{
 .cloud-square.one{
     filter: url(#filter-one);
     box-shadow:  100vw 180vh 80px 0px;
-    color:  #626366;
+    color:  rgba(255, 255, 255, 0.08);
     z-index: -1;
 
 }
@@ -56,7 +59,7 @@ h1{
 .cloud-square.two{
     filter: url(#filter-two);
     box-shadow:  100vw 150vh 80px 0px;
-    color:  #52565c;
+    color:  rgba(255, 255, 255, 0.08);
     z-index: -2;
 
 }
@@ -64,7 +67,7 @@ h1{
 .cloud-square.three{
     filter: url(#filter-three);
     box-shadow: 100vw 120vh 40px 0px;
-    color: #414449;
+    color:  rgba(255, 255, 255, 0.08);
     z-index: -3;
 }
 
