@@ -1,5 +1,10 @@
+html{
+    overflow: auto;
+}
+
 body{
     background: #30343a;
+    overflow: hide;
 }
 
 .poem{
