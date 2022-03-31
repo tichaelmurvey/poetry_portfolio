@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozymandius | Poetry Portfolio</title>
+    <link rel="stylesheet" href="ozymandius.css">
+</head>
+<body>
+    <div class="sky">
+    </div>
+    <div class="desert">
+    </div>
+</body>
+
+<script type="text/javascript">
+
+    let sandElement;
+    let counter = 2000;
+    let desert = document.querySelector(".desert");
+    for (let i = 0; i < counter; i++) {
+      sandElement = document.createElement("div");
+      sandElement.style.left = Math.floor(Math.random() * desert.offsetWidth) + "px";
+      sandElement.style.top = Math.floor(Math.random() * desert.offsetHeight) + "px";
+      
+      sandElement.classList.add("sand");
+      desert.appendChild(sandElement);
+    }
+  </script>
+</html>

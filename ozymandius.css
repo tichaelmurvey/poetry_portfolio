@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: 
+    linear-gradient( #000138, #02297c);
+}
+
+.sky{
+    height: 80vh;
+}
+
+.desert{
+    height: 60vh;
+    background: 
+    linear-gradient(#7c5500, #ffd95c);
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.sand{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    bottom: 100%;
+    transform-origin: 100% 50%;
+    z-index: 2;
+}
