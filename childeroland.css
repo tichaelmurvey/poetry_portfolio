@@ -123,4 +123,9 @@ h1 {
     flex-direction: column;
   }
 
+  img{
+      margin-top: 100px;
+      width: 15%;
+  }
+
  
