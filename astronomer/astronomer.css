@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: 'Vollkorn', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    background-color: #060637;
+    color: white;
+  }
+  
+  .frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .author {
+    font-size: 1em;
+  }
+  
+  .poem {
+    margin: 48px;
+  }
+  
+  .poem-text {
+    margin-top: 48px;
+    padding-left: 24px;
+    border-left: 1px solid #2f3a6f;
+  }
+  
+  .constellation {
+    max-width: 40%;
+  }
+  
+  .constellation img {
+    max-width: 40vw;
+  }
