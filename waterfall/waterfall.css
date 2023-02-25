@@ -1,0 +1,56 @@
+:root {
+    --color-one: #0D15FB ;
+    --color-two: #020f74 ;
+    --color-three: #002EFA;
+    --color-four: #081cb5;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    font-family: 'Cardo', serif;
+    color: white;
+    font-size: 1.2em;
+    padding: 40px;
+  }
+  
+  
+  .poem {
+    max-width: 500px;
+    margin: 40px auto;
+    position: relative;
+    padding: 80px;
+      background: linear-gradient(var(--color-two), var(--color-four));
+  }
+  .poem-text {
+    margin: auto;
+    margin-top: 48px;
+  }
+  
+  .poem-text p{
+    padding-left: 12px;
+    max-width: 100%;
+  }
+  
+  .poem-text p:nth-child(4n-3){
+    margin-left: 15px;
+  }
+  .poem-text p:nth-child(4n-2){
+    margin-left: 30px;
+  }
+  .poem-text p:nth-child(4n-1){
+    margin-left: 45px;
+  }
+  .poem-text p:nth-child(4n){
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    position: absolute;
+    max-height: 8em;
+    left: 80px;
+  }

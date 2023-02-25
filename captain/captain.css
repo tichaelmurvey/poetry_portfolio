@@ -1,0 +1,45 @@
+:root{
+    --blood-red: #660000;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.2em;
+    background-color: #dfda9f;
+  }
+  .background {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .poem {
+    margin: 60px;
+  }
+  
+  .poem-text p:nth-child(8n-3) {
+    padding-left: 200px;
+    color: var(--blood-red);
+  }
+  .poem-text p:nth-child(8n-2) {
+    padding-left: 220px;
+      color: var(--blood-red);
+  }
+  .poem-text p:nth-child(8n-1) {
+    padding-left: 240px;
+      color: var(--blood-red);
+  }
+  .poem-text p:nth-child(8n) {
+    padding-left: 260px;
+    margin-bottom: 30px;
+      color: var(--blood-red);
+  }

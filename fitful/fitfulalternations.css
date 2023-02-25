@@ -1,0 +1,97 @@
+html{
+    overflow: auto;
+}
+
+body{
+    background: #30343a;
+    overflow: hide;
+}
+
+.poem{
+    color: white;
+    margin-left: 12%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    font-family: 'Middle Ages', sans-serif;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.poem-text{
+    margin-top: 70px;
+    font-size: 2em;
+    line-height: 1.7em;
+    font-family: 'Day Roman', sans-serif;
+}
+
+.first-letter{
+    float: left;
+    font-family: 'Pompei', sans-serif;
+    font-size: 4em;
+    line-height: 0.7em;
+    padding-top: 12px;
+    margin-right: 8px;
+}
+
+.cloud-square{
+    width: 120vw;
+    height: 90vh;
+    background-color: blue;
+    position: absolute; /* Take the parent out of the document flow */
+    top: -100vh; /* Move a little down */
+    left: -110vw; /* Move a little right */
+}
+
+.cloud-square.one{
+    filter: url(#filter-one);
+    box-shadow:  100vw 180vh 80px 0px;
+    color:  rgba(255, 255, 255, 0.08);
+    z-index: -1;
+
+}
+
+.cloud-square.two{
+    filter: url(#filter-two);
+    box-shadow:  100vw 150vh 80px 0px;
+    color:  rgba(255, 255, 255, 0.08);
+    z-index: -2;
+
+}
+
+.cloud-square.three{
+    filter: url(#filter-three);
+    box-shadow: 100vw 120vh 40px 0px;
+    color:  rgba(255, 255, 255, 0.08);
+    z-index: -3;
+}
+
+
+hr {
+    width: 50px;
+    border-color: transparent;
+    border-right-color: rgba(178, 177, 184, 0.13);
+    border-right-width: 20px;
+    position: absolute;
+    bottom: 100%;
+    transform-origin: 100% 50%;
+    animation-name: rain;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes rain {
+    from {
+      transform: rotate(105deg) translateX(0);
+    } 
+    to {
+      transform: rotate(105deg) translateX(calc(100vh + 20px));
+    }
+  }

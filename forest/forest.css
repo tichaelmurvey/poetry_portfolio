@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    font-family: 'La Belle Aurore', cursive;
+    margin: 0;
+    padding: 0;
+    background:
+      linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+      url('snow.jpg');
+  }
+  
+  .poem {
+    margin: 40px;
+    padding: 40px;
+  }
+  
+  .poem-text{
+    font-size: 1.2em;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .stanza {
+    margin-top: 30px;
+  }
+  
+  img {
+    max-width: 300px;
+    border: 2px solid #575757;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .numeral {
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+  }
