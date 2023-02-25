@@ -8,6 +8,10 @@ Each takes a poem and creates a web experience to enhance the feeling of reading
 
 [Not So Far as the Forest](https://tichaelmurvey.github.io/poetry_portfolio/forest) by Edna St Vincent Milay
 
+[Waterfall](https://tichaelmurvey.github.io/poetry_portfolio/waterfall) by Mary Oliver
+
+[The Second Coming](https://tichaelmurvey.github.io/poetry_portfolio/secondcoming) by WB Yeats
+
 [The fiftful alterations of the rain](https://tichaelmurvey.github.io/poetry_portfolio/fitfulalternations.html) by Percy Shelley
 
 [Childe Roland to the Dark Tower Came](https://tichaelmurvey.github.io/poetry_portfolio/childeroland) by Robert Browning
