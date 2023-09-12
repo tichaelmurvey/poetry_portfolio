@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Bungee+Shade&family=Flavors&family=Hina+Mincho&family=Macondo&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Walter+Turncoat&display=swap');
+
+
+body {
+   
+    color: black;
+    min-height: 10000vh;
+}
+
+.test {
+    position: fixed;
+    z-index: 2;
+    color: white;
+}
+p {
+    font-size: 3rem;
+    position: fixed;
+}
+
+.rust {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+h1 {
+    font-weight: normal;
+}
+.poem {
+    position: fixed;
+    width: 100%;
+    padding-left: 30px;
+    color: #1d98c9;
+    font-family: 'Rubik Distressed', cursive;
+    filter: url(#threshold) blur(0.6px);
+    font-weight: 800px;
+}
+/* .stanza{
+    display: none;
+}
+
+.stanza:nth-child(5){
+    display: block;
+} */
